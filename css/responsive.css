@@ -22,17 +22,24 @@
     }
 
     #container {
-        width: 28em;
+        width: 25em;
+        height: 49%;
+    }
+
+    #website {
+        width: 25em;
+        left: 0px;
     }
 }
 
 @media screen and (max-width : 460px) {
     #container {
-        width: 24em;
+        width: 23em;
+        height: 49%;
     }
 
     #website {
-        width: 24em;
+        width: 23em;
         left: 0px;
     }
 }
