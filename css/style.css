@@ -1,0 +1,118 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+
+   height: 100vh;
+   background:
+      linear-gradient(147deg,
+         hsl(330, 75%, 78.04%) 0%,
+         hsl(329.27, 73.18%, 77.9%) 8.1%,
+         hsl(327.05, 68.16%, 77.5%) 15.5%,
+         hsl(323.08, 60.62%, 76.87%) 22.5%,
+         hsl(316.65, 51.3%, 76.02%) 29%,
+         hsl(306.18, 40.91%, 74.96%) 35.3%,
+         hsl(289.87, 38.54%, 75.31%) 41.2%,
+         hsl(272.64, 42.41%, 76.78%) 47.1%,
+         hsl(255.68, 46.77%, 78.24%) 52.9%,
+         hsl(239.37, 51.82%, 79.54%) 58.8%,
+         hsl(227.42, 62.31%, 78.09%) 64.7%,
+         hsl(220.08, 70.76%, 76.63%) 71%,
+         hsl(215.35, 77.22%, 75.25%) 77.5%,
+         hsl(212.32, 81.8%, 74.07%) 84.5%,
+         hsl(210.58, 84.56%, 73.25%) 91.9%,
+         hsl(210, 85.51%, 72.94%) 100%);
+}
+
+#container {
+   width: 31em;
+   height: 31em;
+   background-color: #f5f5f5;
+   position: absolute;
+   transform: translate(-50%, -50%);
+   top: 50%;
+   left: 50%;
+   border-radius: 0.6em;
+   z-index: 2;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+.base,
+#scratch {
+   height: 200px;
+   width: 200px;
+   position: absolute;
+   transform: translate(-50%, -50%);
+   top: 50%;
+   left: 50%;
+   text-align: center;
+   cursor: grabbing;
+   border-radius: 0.3em;
+   z-index: 2;
+}
+
+.base {
+   z-index: 2;
+   background-color: #ffffff;
+   font-family: "Poppins", sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 0 1.2em 2.5em rgba(16, 2, 96, 0.15);
+}
+
+.base h4 {
+   z-index: 2;
+   font-weight: 800;
+   font-size: 2em;
+   color: #746e7e;
+}
+
+#scratch {
+   -webkit-tap-highlight-color: transparent;
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   user-select: none;
+}
+
+#div-timer {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#container-timer {
+   z-index: 3;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url('../assets/752_sexe_bebe-1170x600.jpg');
+   width: 1170px;
+   height: 600px;
+   font-size: 100px;
+   color: #f0f0f0;
+   border-radius: 20px;
+   box-shadow: rgba(0, 0, 0, 0.4) 15px 10px 10px;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+#website {
+   width: 23em;
+   justify-content: center;
+   position: absolute;
+   bottom: 65px;
+   left: 65px;
+   text-align:center;
+}
