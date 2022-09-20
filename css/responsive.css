@@ -1,0 +1,38 @@
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+    #container-timer {
+        width: 90%;
+        background-size: 100% 100%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    #container-timer {
+        font-size: 70px;
+        width: 90%;
+        background-size: 100% 100%;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    #container-timer {
+        font-size: 40px;
+        width: 90%;
+        background-size: 100% 100%;
+        height: 50%;
+    }
+
+    #container {
+        width: 28em;
+    }
+}
+
+@media screen and (max-width : 460px) {
+    #container {
+        width: 24em;
+    }
+
+    #website {
+        width: 24em;
+        left: 0px;
+    }
+}
