@@ -35,11 +35,12 @@
 @media screen and (max-width : 460px) {
     #container {
         width: 23em;
-        height: 49%;
+        height: 45%;
     }
 
     #website {
         width: 23em;
         left: 0px;
+        bottom: 40px;
     }
 }
