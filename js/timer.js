@@ -13,7 +13,7 @@ var update = setInterval(function () {
     
     if (distance < 0) {
         document.getElementById('div-timer').remove();
-        
+        document.getElementById("h4-scratch").innerHTML = "It's a boy !";
         document.getElementById('website').innerHTML = 'Si vous souhaitez participer à la liste de naissance vous trouverez le lien de cette dernière <a href="https://www.amazon.fr/baby-reg/marine-besnard-ludovic-besnard-fvrier-2023-carpentras/3T8VGBNAF8KLN">: en cliquant ici. </a>';
         clearInterval(update);
         firework();
