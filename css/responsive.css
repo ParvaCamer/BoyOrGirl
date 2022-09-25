@@ -29,8 +29,9 @@
     #website {
         width: 25em;
         left: 0px;
+        bottom: 20px;
     }
-    
+
     .base,
     #scratch {
         top: 40%;
@@ -46,7 +47,7 @@
     #website {
         width: 23em;
         left: 0px;
-        bottom: 40px;
+        bottom: 20px;
     }
 
     .base,
