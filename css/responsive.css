@@ -30,6 +30,11 @@
         width: 25em;
         left: 0px;
     }
+    
+    .base,
+    #scratch {
+        top: 40%;
+    }
 }
 
 @media screen and (max-width : 460px) {
