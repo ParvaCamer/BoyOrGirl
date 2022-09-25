@@ -43,4 +43,9 @@
         left: 0px;
         bottom: 40px;
     }
+
+    .base,
+    #scratch {
+        top: 40%;
+    }
 }
